@@ -27,11 +27,18 @@
 					</nav>
 				</div>
 				<div class="col-md-2">
-					<div class="search">
-						<a href="">
+					<div class="search" id="search-icon">
+						<a href="javascript:;">
 							<i class="fa fa-search"></i>
 						</a>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="search-div">
+			<div class="container">
+				<div class="form-div">
+					<?php echo get_search_form("search for...");?>
 				</div>
 			</div>
 		</div>

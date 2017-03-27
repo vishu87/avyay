@@ -53,7 +53,7 @@
 						<p>
 							Sign up for Elon mounthly newsletter and get to know more about our latest adventures and much mores...
 						</p>
-						<form>
+						<form method="POST" action="#form-error" class="check-form">
 							<div class="input-container">
 								<input type="email" name="email" required>
 								<button>Join Now</button>
@@ -63,10 +63,9 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 	<div class="lower">
-
+		© 2017 Elon - Multipurpose & Modern Html Template Handmade by pixor.it
 	</div>
 </footer>
 

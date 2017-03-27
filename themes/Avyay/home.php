@@ -47,26 +47,64 @@ get_header();?>
 </section>
 <section class="home-services white">
 	<div class="table-div">
-		<?php for ($i=0; $i < 4; $i++) {?>
 		<div class="sec">
-			<i class="fa fa-home"></i>
-			<h2>Web Development</h2>
+			<img src="<?php echo get_template_directory_uri();?>/img/production-icon.png">
+			<h2>Post Production Video</h2>
 			<p>
 				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
 			</p>	
 		</div>
-		<?php } ?>
+		<div class="sec">
+			<img src="<?php echo get_template_directory_uri();?>/img/graphic-web-icon.png">
+			<h2>Graphics And Web Design</h2>
+			<p>
+				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
+			</p>	
+		</div>
+		<div class="sec">
+			<img src="<?php echo get_template_directory_uri();?>/img/photo-manipulation-icon.png">
+			<h2>Photo Manipulation</h2>
+			<p>
+				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
+			</p>	
+		</div>
+		<div class="sec">
+			<img src="<?php echo get_template_directory_uri();?>/img/experts-support-icon.png">
+			<h2>Support From Experts</h2>
+			<p>
+				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
+			</p>	
+		</div>
 	</div>	
 	<div class="table-div">
-		<?php for ($i=0; $i < 4; $i++) {?>
 		<div class="sec">
-			<i class="fa fa-home"></i>
+			<img src="<?php echo get_template_directory_uri();?>/img/web-development-icon.png">
 			<h2>Web Development</h2>
 			<p>
 				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
 			</p>	
 		</div>
-		<?php } ?>
+		<div class="sec">
+			<img src="<?php echo get_template_directory_uri();?>/img/wordpress-icon.png">
+			<h2>Wordpress Service</h2>
+			<p>
+				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
+			</p>	
+		</div>
+		<div class="sec">
+			<img src="<?php echo get_template_directory_uri();?>/img/seo-marketing-icon.png">
+			<h2>Marketing And SEO</h2>
+			<p>
+				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
+			</p>	
+		</div>
+		<div class="sec">
+			<img src="<?php echo get_template_directory_uri();?>/img/hosting-domain-icon.png">
+			<h2>Hosting And Domain</h2>
+			<p>
+				Interdum iusto pulvinar consequuntur augue optio, repellat fuga Purus expedita fusce temporibus est odit mi quos. Aliquid semper veritatis dignissimos.
+			</p>	
+		</div>
 	</div>	
 </section>
 <section class="home-clients">
@@ -165,7 +203,7 @@ get_header();?>
 					<?php for ($i=0; $i < 3; $i++) {?>
 					<div class="table-div">
 						<div class="icon">
-							<i class="fa fa-home"></i>
+							<img src="<?php echo get_template_directory_uri();?>/img/best-technology-icon.png">
 						</div>
 						<div class="content">
 							<h2>THE BEST TECHNOLOGIES</h2>

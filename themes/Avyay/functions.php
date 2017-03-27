@@ -25,6 +25,9 @@ function theme_css_scripts() {
 
     wp_enqueue_script( 'owl-carousal', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), '1.0.0', true );
 
+    wp_enqueue_script( 'owl-carousal', get_template_directory_uri() . '/js/jquery.validate.js', array(), '1.0.0', true );
+
+
 	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array(), '1.0.0', true);
 
     /* Theme CSS */
