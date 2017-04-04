@@ -11,7 +11,7 @@ get_header();?>
 					<a href="javascript:;" class="blue-btn">Go To Services</a>
 				</div>
 				<div class="col-md-7">
-					<img src="<?php echo get_template_directory_uri();?>/img/mk-ipad.png">
+					<img src="<?php echo get_template_directory_uri();?>/img/dw-tab.png">
 				</div>
 			</div>
 		</div>
@@ -20,7 +20,7 @@ get_header();?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
-					<img src="<?php echo get_template_directory_uri();?>/img/mk-iphone.png">
+					<img src="<?php echo get_template_directory_uri();?>/img/ileague-phone.png">
 				</div>
 				<div class="col-md-5">
 					<h3>Stay Tuned</h3>
@@ -39,7 +39,7 @@ get_header();?>
 					<a href="javascript:;" class="blue-btn">Go To Services</a>
 				</div>
 				<div class="col-md-8">
-					<img src="<?php echo get_template_directory_uri();?>/img/mk-air.png">
+					<img src="<?php echo get_template_directory_uri();?>/img/ndani-desktop.png">
 				</div>
 			</div>
 		</div>
@@ -226,7 +226,7 @@ get_header();?>
 			<div class="count">
 				333 Days 23 Hours 08 Minutes
 			</div>
-			<p>
+			<p id="option_div">
 				Corrupti donec repellat magnis assumenda accusantium consequatur aliquet potenti.
 				Aut aspernatur nisi sapiente consequatur consequuntur
 				omnis aperiam hymenaeos laboriosam scelerisque quas

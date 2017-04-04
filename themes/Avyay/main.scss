@@ -15,11 +15,11 @@ $open_sans: 'Open Sans', sans-serif;
 
 body {
 	font-family: $open_sans;
-    font-size: 14px;
-    line-height: 27px;
-    color: $light_grey;
-    font-weight: 300;
-    letter-spacing: .2px;
+  font-size: 14px;
+  line-height: 27px;
+  color: $light_grey;
+  font-weight: 300;
+  letter-spacing: .2px;
 }
 
 a:link,a:visited,a:hover,a:active,a:focus {
@@ -523,6 +523,9 @@ footer {
 					top: 0;
 				}
 			}
+			label.error {
+				color: #fff;
+			}
 		}
 	}
 	.lower {
@@ -530,4 +533,8 @@ footer {
 		padding: 15px 0;
 		text-align: center;
 	}
+}
+label.error {
+	color: #f00;
+	font-weight: 400;
 }

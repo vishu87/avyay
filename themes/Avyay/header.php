@@ -28,7 +28,7 @@
 				</div>
 				<div class="col-md-2">
 					<div class="search" id="search-icon">
-						<a href="javascript:;">
+						<a href="javascript:;" data-value="0">
 							<i class="fa fa-search"></i>
 						</a>
 					</div>
@@ -38,7 +38,7 @@
 		<div class="search-div">
 			<div class="container">
 				<div class="form-div">
-					<?php echo get_search_form("search for...");?>
+					<?php echo get_search_form($echo = true);?>
 				</div>
 			</div>
 		</div>
